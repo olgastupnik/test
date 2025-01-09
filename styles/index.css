@@ -1,0 +1,40 @@
+.container{
+    padding: 20px 15px;
+}
+
+header{
+    /* background-color: black; */
+}
+
+header:hover{
+    /* background-color: red; */
+}
+
+button::after{
+    content: ">";
+}
+button::before{
+    content: "<";
+    font-family: Segoe UI;
+    font-size: 110px;
+    font-weight: 400;
+    line-height: 154px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+p::after{
+    content:">";
+    background: red;
+    font-family: Segoe UI;
+    font-size: 110px;
+    font-weight: 400;
+    line-height: 154px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+}
+
